@@ -1,0 +1,61 @@
+html,body{
+    background-color: blueviolet;
+    
+}
+#score
+{
+  margin-top: 50px;
+  margin-left: 50%;
+  font-weight: bolder;
+  font-size: larger;
+  color: rgb(115, 246, 98);
+}
+#arena
+{
+  
+  
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(204, 158, 158);
+    margin-left: 100px;
+    margin-top: 20px;
+    border-color: #a2daa0;
+    border-radius: 1rem;
+    
+}
+
+.start-button
+{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(147, 134, 134);
+  
+   margin-top: 20px;
+   margin-left: 22rem;
+   background-color:#a2daa0;
+   font-style: italic;
+   color: rgb(14, 14, 15);
+   border-radius: 1rem;
+   border: solid rgb(217, 96, 48);
+   
+   
+
+}
+.snake
+{
+   position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(225, 129, 61);
+    border-radius: .4rem;
+   
+}
+.food
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(158, 106, 206);
+    border-radius: 20rem;
+}
