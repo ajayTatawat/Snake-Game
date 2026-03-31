@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🐍 Snake Game</h1>
+<p id="score">Score: 0 | High Score: 0</p>
+
+<div id="arena"></div>
+
+<button class="start-button" onclick="startGame()">Start Game</button>
+
+<div class="controls">
+    <button onclick="changeDirection({key:'ArrowUp'})">⬆️</button>
+    <button onclick="changeDirection({key:'ArrowLeft'})">⬅️</button>
+    <button onclick="changeDirection({key:'ArrowRight'})">➡️</button>
+    <button onclick="changeDirection({key:'ArrowDown'})">⬇️</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
